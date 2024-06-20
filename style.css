@@ -418,3 +418,61 @@ color: navy;
     } 
 }
 /* enquiry end */
+
+
+/* contact start */
+.contact{
+    background-color: rgb(145, 161, 22);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+}
+
+.contact h1{
+    font-family: serif;
+    font-weight: bolder;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.contact b{
+    color: black;
+}
+.contact input{
+    font-family: serif;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+.contact textarea{
+    font-family: serif;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.contact .custom-btn{
+    text-align: center;
+}
+.contact .btn-danger{
+    font-family: serif;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.contact .map-container {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+@media (max-width:576px) {
+    .contact .map-container {
+        margin-top: 30px;
+    } 
+}
+
+.contact .map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/* contact end */
